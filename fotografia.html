@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fotografía — Daniela Niembro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="disciplina.css" />
+<script src="image-slot.js"></script>
+<style>:root{--accent:#274272;--accent-2:#6C90C3}</style>
+</head>
+<body>
+<div class="grain"></div>
+
+<nav class="nav">
+  <a class="back" href="index.html"><span>←</span> Volver</a>
+  <a class="mark" href="index.html">DN</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-meta">
+    <span>Disciplina 02 / 06</span>
+    <span>Retrato · Producto · Editorial</span>
+  </div>
+  <h1>Fotografía</h1>
+  <div class="sub">
+    <p>La luz como lenguaje. Retrato, producto y editorial: imágenes que detienen el tiempo y cuentan algo sin decir una palabra.</p>
+    <span class="role">Fotógrafa</span>
+  </div>
+</header>
+
+<main class="work">
+  <section class="cat">
+    <div class="cat-head">
+      <span class="idx">01</span>
+      <div><h2>Retrato</h2><p class="note">El rostro como territorio. Dirección, luz y dirección de mirada.</p></div>
+    </div>
+    <div class="g-grid g-duo">
+      <figure class="ar-4x5"><image-slot id="fot-01a" placeholder="Retrato"></image-slot><figcaption>Serie — retrato</figcaption></figure>
+      <figure class="ar-4x5"><image-slot id="fot-01b" placeholder="Retrato"></image-slot><figcaption>Serie — retrato</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="cat">
+    <div class="cat-head">
+      <span class="idx">02</span>
+      <div><h2>Editorial</h2><p class="note">Narrativa de moda y lifestyle a página completa.</p></div>
+    </div>
+    <div class="g-grid g-full">
+      <figure class="ar-tall"><image-slot id="fot-02a" placeholder="Editorial — pieza grande"></image-slot><figcaption>Editorial — apertura</figcaption></figure>
+    </div>
+    <div class="g-grid g-duo" style="margin-top:clamp(12px,1.6vw,22px)">
+      <figure class="ar-3x2"><image-slot id="fot-02b" placeholder="Editorial"></image-slot></figure>
+      <figure class="ar-3x2"><image-slot id="fot-02c" placeholder="Editorial"></image-slot></figure>
+    </div>
+  </section>
+
+  <section class="cat">
+    <div class="cat-head">
+      <span class="idx">03</span>
+      <div><h2>Producto</h2><p class="note">Bodegón y producto con luz precisa y composición limpia.</p></div>
+    </div>
+    <div class="g-grid g2">
+      <figure class="ar-1x1"><image-slot id="fot-03a" placeholder="Producto"></image-slot></figure>
+      <figure class="ar-1x1"><image-slot id="fot-03b" placeholder="Producto"></image-slot></figure>
+      <figure class="ar-1x1"><image-slot id="fot-03c" placeholder="Producto"></image-slot></figure>
+    </div>
+  </section>
+</main>
+
+<a class="next" href="contenido.html">
+  <div><span class="lbl">Siguiente disciplina →</span><h3>Contenido</h3></div>
+  <span class="lbl">03 / 06</span>
+</a>
+<script src="disciplina.js"></script>
+</body>
+</html>
