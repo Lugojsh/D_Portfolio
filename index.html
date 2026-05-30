@@ -384,6 +384,8 @@ footer::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;poin
       const p2=new DOMPoint(bb.x,bb.y+bb.height).matrixTransform(ctm);
       const renderedH=Math.abs(p2.y-p1.y);
       wrap.style.fontSize=renderedH+'px';
+      const pStart=new DOMPoint(76,0).matrixTransform(ctm);
+      wrap.style.left=(pStart.x-pr.left)+'px';
       const wh=wrap.getBoundingClientRect().height;
       wrap.style.bottom='auto';
       wrap.style.top=(c.y-pr.top-wh/2)+'px';
